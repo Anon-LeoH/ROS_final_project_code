@@ -1,0 +1,8 @@
+<launch>
+  <include file="$(find clam_bringup)/launch/lowlevel_simulator.launch">
+  </include>
+  <include file="$(find clam_moveit_config)/launch/move_group.launch">
+  </include>
+  <include file="$(find clam_moveit_config)/launch/moveit_rviz.launch">
+  </include>
+</launch>
